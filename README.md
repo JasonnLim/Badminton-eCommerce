@@ -17,9 +17,6 @@ Technologies Used:
 ## Cart Page
 ![image](https://user-images.githubusercontent.com/57948673/129434096-a2745863-5628-42f2-b808-5a9578657bd8.png)
 
-## Checkout Page
-![image](https://user-images.githubusercontent.com/57948673/129434103-42ac4907-35bb-47d2-bad1-39eebeb75032.png)
-
 ## Complete Payment Page (Save Receipt will Generate a PDF Receipt)
 ![image](https://user-images.githubusercontent.com/57948673/129434112-870ceb1a-c59e-4c39-bf2a-7dd132ea2513.png)
 
