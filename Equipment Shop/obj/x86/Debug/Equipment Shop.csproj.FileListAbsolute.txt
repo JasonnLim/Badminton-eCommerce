@@ -1,0 +1,101 @@
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\App.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\App.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Admin.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Admin.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MainPage.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MerchDetail.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MerchDetail.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\QRPayment.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\QRPayment.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Receipt.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Receipt.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\SellerPanel.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\SellerPanel.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ShoppingCart.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ShoppingCart.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\App.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Admin.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MainPage.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MerchDetail.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\QRPayment.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Receipt.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\SellerPanel.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ShoppingCart.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\App.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Admin.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MainPage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MerchDetail.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\QRPayment.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Receipt.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\SellerPanel.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ShoppingCart.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Equipment Shop.csproj.CoreCompileInputs.cache
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\App.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Admin.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\MainPage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\MerchDetail.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\QRPayment.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Receipt.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\SellerPanel.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\ShoppingCart.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Equipment Shop.xr.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Equipment Shop.exe
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Equipment Shop.pdb
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\resources.pri
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\AppxManifest.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Core\Equipment Shop.exe
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Equipment Shop.build.appxrecipe
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Firebase.Auth.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Firebase.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Firebase.Storage.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\LiteDB.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\System.Runtime.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\System.Reactive.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Equipment Shop.csproj.CopyComplete
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive.pri.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Equipment Shop.exe
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Equipment Shop.pdb
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive\en-US\System.Reactive.Strings_Core.resw
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive\en-US\System.Reactive.Strings_Linq.resw
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive\en-US\System.Reactive.Strings_PlatformServices.resw
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive\en-US\System.Reactive.Strings_Providers.resw
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\System.Reactive\en-US\System.Reactive.Platforms.Windows.Strings_WindowsThreading.resw
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\priconfig.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\resources.resfiles
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\pri.resfiles
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\qualifiers.txt
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885022160000000.json
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Equipment Shop.csprojAssemblyReference.cache
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\EditPage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\EditPage.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\EditPage.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\EditPage.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\EditPage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\DeletePage.g.i.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\DeletePage.g.cs
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\DeletePage.xaml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\DeletePage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\DeletePage.xbf
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Syncfusion.Pdf.UWP\Properties\Syncfusion.Pdf.UWP.rd.xml
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Syncfusion.Licensing.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\bin\x86\Debug\Syncfusion.Pdf.UWP.dll
+C:\Users\JustJasonn\source\repos\Equipment Shop\Equipment Shop\obj\x86\Debug\Syncfusion.Pdf.UWP.pri.xml

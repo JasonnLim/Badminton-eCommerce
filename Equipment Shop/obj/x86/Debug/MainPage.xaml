@@ -1,0 +1,63 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Equipment_Shop.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Equipment_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <Button x:ConnectionId='2' x:Name="BackButton"                         
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                                                                  
+                ToolTipService.ToolTip="Back"/>
+            <Button x:ConnectionId='3' x:Name="SellerPanel" Content="Seller Panel"                           CornerRadius="4"></Button>
+
+            <TextBlock Text="Equipment Shop"  FontSize="35" HorizontalAlignment="Center" FontWeight="Bold" FontFamily="Arial" Margin="10"></TextBlock>
+            <GridView x:ConnectionId='4' x:Name="MerchList" Height="800" HorizontalAlignment="Stretch" Margin="0,50,0,0"
+            SelectionMode="None"
+            IsItemClickEnabled="True"
+            VerticalAlignment="Center"
+                                           >
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="40" Width="200" Height="230" Orientation="Vertical">
+                            <Image Source="{Binding ImageURL}" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5"/>
+                            
+                            <TextBlock Text="{Binding Name}"
+                            Grid.Column="1"
+                            HorizontalAlignment="Stretch"
+                            TextAlignment="Center"
+                            Margin="0,0,0,4"
+                            FontWeight="Bold"
+                            TextWrapping="NoWrap"
+                            TextTrimming="CharacterEllipsis"
+                            MaxLines="1"></TextBlock>
+                            
+                            <TextBlock Text="{Binding Type}"
+                            HorizontalAlignment="Stretch"
+                            TextAlignment="Center"
+                            FontWeight="Light"
+                            FontSize="12"
+                            Margin="0,0,0,8"
+                            ></TextBlock>
+                            
+                            <TextBlock Text="{Binding Price}"
+                            HorizontalAlignment="Stretch"
+                            TextAlignment="Center"
+                            Foreground="Maroon"
+                            FontWeight="Bold"
+                            Margin="0,0,0,4"
+                            ></TextBlock>
+                                                      
+                        </StackPanel>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </StackPanel>
+    </Grid>
+</Page>
+

@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Equipment_Shop.QRPayment"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Equipment_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Scan QR Code to Make Payment" FontSize="30" FontWeight="Bold" Margin="0,30,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <Image x:Name="qrcode" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Width="300" Height="300"/>
+            <TextBlock Text="Total Payment" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:Name="TotalPayment" FontSize="35" FontWeight="Bold" Foreground="Maroon" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <Button
+                            x:Name="Proceed"
+                            Content="Proceed"
+                            Margin="0,8,0,0"
+                            Click="Proceed_Click"
+                            Foreground="GhostWhite"
+                            HorizontalAlignment="Center"
+                            >
+                <Button.Background>
+                    <LinearGradientBrush
+                                    StartPoint="0.5,0"
+                                    EndPoint="0.5,1"
+                                    >
+                        <GradientStop Color="#FFFF4040" Offset="0.0" />
+                        <GradientStop Color="#FFA04040" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

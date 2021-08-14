@@ -1,0 +1,24 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Equipment_Shop.DeletePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Equipment_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <Button x:ConnectionId='2' x:Name="BackButton"                         
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                                                                  
+                ToolTipService.ToolTip="Back"/>
+            <TextBlock Text="Delete Item" FontSize="30" FontWeight="Bold" Margin="0,30,0,30" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="Item Name" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <TextBox x:ConnectionId='3' x:Name="nameTextBox" TextWrapping="Wrap" Text="" PlaceholderText="Name" Margin="10,10" Width="370" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Button x:ConnectionId='4' x:Name="RemoveButton" Content="Remove Item" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="10"                            Width="110"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

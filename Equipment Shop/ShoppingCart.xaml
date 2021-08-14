@@ -1,0 +1,218 @@
+﻿<Page
+    x:Class="Equipment_Shop.ShoppingCart"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Equipment_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="BackButton" Click="BackButton_Click"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                ToolTipService.ToolTip="Back"/>
+
+        <ScrollViewer
+                Grid.Row="1"
+                VerticalScrollBarVisibility="Visible"
+                VerticalScrollMode="Enabled"
+                Padding="0,0,24,0"
+                >
+            <StackPanel>
+                <Grid
+                        Grid.Row="0"
+                        >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="70" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                            Grid.Column="2"
+                            Text="Price"
+                            />
+                    <TextBlock
+                            Grid.Column="3"
+                            Text="Quantity"
+                            />
+                </Grid>
+                <Rectangle
+                        Grid.Row="1"
+                        Height="1"
+                        RadiusY="2"
+                        RadiusX="2"
+                        Fill="#2F000000"
+                        Margin="0,4"
+                        />
+                <StackPanel
+                        Grid.Row="2"
+                        >
+                    <ListView
+                            x:Name="cartlist"
+                            Grid.Row="2"
+                            SelectionMode="None"
+                            IsItemClickEnabled="False"
+                            >
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                <Setter Property="Padding" Value="0,8" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="70" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding ImageURL}" 
+                                            Grid.Column="0"
+                                            Width="200"
+                                            Height="200"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Top"/>
+
+                                    <StackPanel
+                                            Grid.Column="1"
+                                            HorizontalAlignment="Left"
+                                            >
+
+                                        <TextBlock
+                                                Text="{Binding Name}"
+                                                Grid.Column="1"
+                                                TextAlignment="Left"
+                                                Margin="20,0,0,0"
+                                                FontWeight="Bold"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                TextWrapping="WrapWholeWords"
+                                                TextTrimming="CharacterEllipsis"
+                                                MaxLines="2"
+                                                />
+                                    </StackPanel>
+                                    <TextBlock
+                                            Grid.Column="2"
+                                            Text="{Binding Price}"
+                                            VerticalAlignment="Top"
+                                            HorizontalAlignment="Stretch"
+                                            Foreground="Maroon"
+                                            FontWeight="SemiBold"
+                                            FontSize="20"
+                                            />
+                                    <StackPanel
+                                            Grid.Column="3"
+                                            VerticalAlignment="Top"
+                                            >
+                                        <TextBlock
+                                                Text="{Binding Quantity}"
+                                                Grid.Column="3"
+                                                TextWrapping="NoWrap"
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Stretch"
+                                                MinWidth="0"                                              
+                                                />
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <Rectangle
+                            Height="1"
+                            RadiusY="2"
+                            RadiusX="2"
+                            Fill="#2F000000"
+                            Margin="0,4"
+                            />
+                    <Grid
+                            HorizontalAlignment="Right">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock
+                                Grid.Column="0"
+                                Grid.Row="0"
+                                FontWeight="SemiBold"
+                                Text="Subtotal:"
+                                />
+                        <TextBlock
+                                x:Name="subtotal"
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                FontWeight="SemiBold"
+                                Foreground="Maroon"
+                                HorizontalAlignment="Right"
+                                />
+                        <TextBlock
+                                Grid.Column="0"
+                                Grid.Row="1"
+                                Text="Shipping Fee:"
+                                >
+                        </TextBlock>
+                        <TextBlock
+                                x:Name="shippingfee"
+                                Grid.Column="1"
+                                Grid.Row="1"
+                                Foreground="Maroon"
+                                HorizontalAlignment="Right"
+                                />
+                        <TextBlock
+                                Margin="0,10,0,0"
+                                Grid.Column="0"
+                                Grid.Row="3"
+                                FontWeight="SemiBold"
+                                FontSize="20"
+                                Text="Total:"
+                                />
+                        <TextBlock
+                                Margin="0,10,0,0"
+                                x:Name="total"
+                                Grid.Column="1"
+                                Grid.Row="3"
+                                FontWeight="SemiBold"
+                                FontSize="20"
+                                Foreground="Maroon"
+                                HorizontalAlignment="Right"
+                                />
+                    </Grid>
+                    <Button
+                            x:Name="Checkout"
+                            Content="Checkout"
+                            Margin="0,8,0,0"
+                            Click="Checkout_Click"
+                            Foreground="GhostWhite"
+                            HorizontalAlignment="Right"
+                            >
+                        <Button.Background>
+                            <LinearGradientBrush
+                                    StartPoint="0.5,0"
+                                    EndPoint="0.5,1"
+                                    >
+                                <GradientStop Color="#FFFF4040" Offset="0.0" />
+                                <GradientStop Color="#FFA04040" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

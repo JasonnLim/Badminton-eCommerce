@@ -1,0 +1,131 @@
+﻿<Page
+    x:Class="Equipment_Shop.MerchDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Equipment_Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="BackButton" Click="BackButton_Click"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                ToolTipService.ToolTip="Back"/>
+
+        <StackPanel Grid.Row="1">
+          
+            <Image x:Name="image" Height="200" Width="250" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock
+                x:Name="name"
+                FontWeight="Bold"
+                FontSize="40"
+                HorizontalAlignment="Center"
+                TextWrapping="WrapWholeWords"
+                />
+            <TextBlock
+                FontFamily="Segoe UI Emoji"
+                x:Name="type"
+                FontSize="20"
+                LineStackingStrategy="BlockLineHeight"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                />
+            <Rectangle
+                Height="1"
+                RadiusY="2"
+                RadiusX="2"
+                Fill="#3F000000"
+                Margin="0,8"
+                />
+            <StackPanel
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                >
+                <TextBlock
+                    Text="Price:"
+                    FontSize="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    />
+
+                <Rectangle
+                    Width="8"
+                    />
+                <StackPanel
+                    Orientation="Vertical"
+                    >
+                    <TextBlock
+                        x:Name="price"
+                        HorizontalAlignment="Stretch"                      
+                        TextAlignment="Left"
+                        Foreground="Maroon"
+                        FontWeight="Bold"
+                        FontSize="25"
+                        />
+                </StackPanel>
+            </StackPanel>
+            <Rectangle
+                Height="1"
+                RadiusY="2"
+                RadiusX="2"
+                Fill="#3F000000"
+                Margin="0,8"
+                />
+            <StackPanel
+                HorizontalAlignment="Center"
+                Width="400"
+                >
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal"
+                    >
+                    <TextBlock
+                        Text="Quantity:"
+                        VerticalAlignment="Center"
+                        />
+                    <Rectangle
+                        Width="8"
+                        />
+                    <ComboBox x:Name="quantity" SelectionChanged="quantity_SelectionChanged">
+                        <ComboBoxItem Content="1"></ComboBoxItem>
+                        <ComboBoxItem Content="2"></ComboBoxItem>
+                        <ComboBoxItem Content="3"></ComboBoxItem>
+                        <ComboBoxItem Content="4"></ComboBoxItem>
+                        <ComboBoxItem Content="5"></ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <Rectangle
+                    Height="8"
+                    />
+                <Button
+                    x:Name="AddToCart"
+                    HorizontalAlignment="Stretch"
+                    Click="AddToCart_Click"
+                    >
+                    <Button.Content>
+                        <TextBlock
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Stretch"
+                            TextAlignment="Center"
+                            >
+                            <Run
+                                FontFamily="Segoe MDL2 Assets"
+                                Text="&#xe7bf;  "
+                                />
+                            <Run
+                                Text="Add to cart"
+                                />
+                        </TextBlock>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
