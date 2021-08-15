@@ -1,4 +1,4 @@
-# Equipment-Shop
+# Badminton-eCommerce
 
 This is a Universal Windows Application
 Technologies Used:
