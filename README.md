@@ -8,7 +8,7 @@ Technologies Used:
 - Firebase Database
 - Firebase Storage
 
-## Buyer Homepage
+## Buyer Homepage (Front End)
 ![image](https://user-images.githubusercontent.com/57948673/129434036-a8fd39f3-e0c2-4c05-9c6e-5b6c018e8c19.png)
 
 ## Item Detail Page 
